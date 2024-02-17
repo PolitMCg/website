@@ -1,36 +1,5 @@
-#span1 {
-    color: brown;
-}
-#span2 {
-    color: blueviolet;
-}
-#span3 {
-    color: blue;
-}
-#span4 {
-    color: aqua;
-}
-#span5 {
-    color: cadetblue;
-}
-#span6 {
-    color: chartreuse;
-}
-#span7 {
-    color: coral;
-}
-#span8 {
-    color: cornflowerblue;
-}
-#span9 {
-    color: aquamarine;
-}
-#span10 {
-    color: crimson;
-}
-#span11 {
-    color: darkgreen;
-}
-#span12 {
-    color: black;
+body {
+    background-image: url('public/background.jpg'); /* Путь к вашему изображению */
+    background-size: cover; /* Масштабировать изображение так, чтобы оно полностью покрывало задний фон */
+    background-repeat: no-repeat; /* Запретить повторение изображения */
 }

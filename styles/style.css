@@ -4,5 +4,9 @@
     min-height: 100vh;
 }
 ::-webkit-scrollbar {
-    width: 90px;
+    width: 9px;
+}
+::-webkit-scrollbar-track {
+    width: 9px;
+    color: darkgoldenrod;
 }

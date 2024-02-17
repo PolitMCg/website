@@ -1,5 +1,5 @@
 .main-page {
-    background: url("/public/background.png") no-repeat top center;
+    background: href("/background.png") no-repeat top center;
     background-size: cover;
     min-height: 100vh;
 }

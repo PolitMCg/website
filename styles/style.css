@@ -1,5 +1,5 @@
 body {
-    background-image: url('public/background.jpg'); /* Путь к вашему изображению */
+    background-image: url("/public/background.png"); /* Путь к вашему изображению */
     background-size: cover; /* Масштабировать изображение так, чтобы оно полностью покрывало задний фон */
     background-repeat: no-repeat; /* Запретить повторение изображения */
 }

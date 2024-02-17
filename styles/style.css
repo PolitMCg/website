@@ -1,5 +1,5 @@
-body {
-    background-image: url("/public/background.png"); /* Путь к вашему изображению */
-    background-size: cover; /* Масштабировать изображение так, чтобы оно полностью покрывало задний фон */
-    background-repeat: no-repeat; /* Запретить повторение изображения */
+.main-page {
+    background: url(public/background.png) no-repeat top center;
+    background-size: cover;
+    min-height: 100vh;
 }

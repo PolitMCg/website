@@ -6,7 +6,7 @@
 ::-webkit-scrollbar {
     width: 9px;
 }
-::-webkit-scrollbar-track {
+::-webkit-scrollbar-thumb {
     width: 9px;
     color: darkgoldenrod;
 }

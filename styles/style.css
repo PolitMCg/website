@@ -4,6 +4,7 @@ padding: 0;
 } 
 .all {
     background-color: gray;
+    color: white;
 }
 
 body {
@@ -14,4 +15,7 @@ body {
 .VK {
 float:right
 }
-
+.main {
+    background-color: black;
+    padding: 15px;
+}

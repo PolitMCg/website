@@ -9,7 +9,8 @@ padding: 0;
 
 body {
     background-image: url("cover.png");
-    background-size: cover; /* чтобы изображение занимало всю доступную область */
+    background-size: cover; 
+    background-repeat: no-repeat;
 }
 
 .VK {

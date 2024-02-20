@@ -47,7 +47,9 @@ transform: translateY(1520px);
     transform: translateY(120px);
 }
 .home {
-padding: 15px 30px;
+color:  white;
+background-color: black;
+padding: 10px 25px;
 border: none;
 cursor: pointer;
 border-radius: 20px;

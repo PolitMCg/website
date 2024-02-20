@@ -143,22 +143,16 @@ background-position: right;
     color: rgb(43,185,105);
 }
 .content1 {
-    background-image: url(public/photo-anim1.jpg)
+    background-image: url(public/photo-anim1.jpg);
     position: absolute;
     text-align: right;
     left: 350px;
     top: 0px;
 }
 .content1:hover {
-background-image: url(public/photo-anim2.jpg)
+background-image: url(public/photo-anim2.jpg);
 }
 .content2 {
-    position: absolute;
-    text-align: right;
-    left: 350px;
-    top: 0px;
-}
-.content3 {
     position: absolute;
     text-align: right;
     left: 350px;

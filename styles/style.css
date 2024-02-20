@@ -5,9 +5,6 @@ padding: 0;
 .all {
     background-color: gray;
     color: white;
-}
-
-.all {
     background-image: url("cover3.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,9 +29,11 @@ padding: 0;
    font-size: large;
 }
 .logo {
+    font-family:Georgia, 'Times New Roman', Times, serif;
     float: left;
 }
 .content {
+    font-family:Georgia, 'Times New Roman', Times, serif;
     position: absolute;
     width: 500px;
     height: 400px;
@@ -50,9 +49,10 @@ height: 50px;
 text-align: center;
 }
 .features {
+    font-family:Georgia, 'Times New Roman', Times, serif;
     padding: 10px;
      position: absolute;
-     top: 300px;
+     top: 400px;
      left: 200px;
 
 }
@@ -84,7 +84,7 @@ border-radius: 20px;
 font-weight: 600;
 font-size: 20px;
 box-shadow: 0px 5px 10px black;
-background: linear-gradient(to left,#bdc3c7,#2c3e50,#bdc3c7);
+background: linear-gradient(to left,#bdc3c7,#3D7EAA,#928DAB);
 text-decoration:none;
 background-size: 200%;
 transition: .5s;
@@ -102,7 +102,7 @@ border-radius: 20px;
 font-weight: 600;
 font-size: 20px;
 box-shadow: 0px 5px 10px black;
-background: linear-gradient(to left,#bdc3c7,#2c3e50,#bdc3c7);
+background: linear-gradient(to left,#bdc3c7,#3D7EAA,#928DAB);
 text-decoration:none;
 background-size: 200%;
 transition: .5s;
@@ -120,7 +120,7 @@ border-radius: 20px;
 font-weight: 600;
 font-size: 20px;
 box-shadow: 0px 5px 10px black;
-background: linear-gradient(to left,#bdc3c7,#2c3e50,#bdc3c7);
+background: linear-gradient(to left,#bdc3c7,#3D7EAA,#928DAB );
 text-decoration:none;
 background-size: 200%;
 transition: .5s;

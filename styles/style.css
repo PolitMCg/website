@@ -149,12 +149,12 @@ background-position: right;
     text-align: right;
     left: 350px;
     top: 0px;
+    z-index: 3;
+    width: 100px;
+    height: 100px;
 }
 .content1:hover {
-background-image: url(public/photo-anim1.jpg);
-width: 100px;
-height: 100px;
-z-index: 3;
+background-image: url(public/photo-anim2.jpg);
 }
 .content2 {
     position: absolute;

@@ -12,6 +12,7 @@ padding: 0;
 
 .VK {
     float:right;
+    cursor: pointer;
 }
 .main {
     background-color: rgba(17,17,17,0.7);

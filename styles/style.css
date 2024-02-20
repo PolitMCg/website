@@ -15,7 +15,7 @@ body {
 }
 
 .VK {
-transform: translateY(-10px);
+    transform: translateY(-10px);
     float:right;
 }
 .main {
@@ -30,6 +30,7 @@ transform: translateY(-10px);
 }
 .logo {
     float: left;
+    transform: translateY(-5px)
 }
 .content {
     padding: 10px;

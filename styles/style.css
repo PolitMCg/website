@@ -124,7 +124,7 @@ background-size: 200%;
 transition: .5s;
 }
 .news:hover {
-background-posistion: right;
+background-position: right;
 }
 ::-webkit-scrollbar {
     background-color: rgb(66,66,66);

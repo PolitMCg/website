@@ -8,10 +8,9 @@ padding: 0;
 }
 
 body {
-    background-image: url("cover.png");
-    background-size: cover; 
+    background-image: url("cover3.png");
     background-repeat: no-repeat;
-    
+    background-size: cover;
 }
 
 .VK {
@@ -34,4 +33,7 @@ body {
 }
 .content {
     padding: 10px;
+}
+.test {
+transform: translateY(2500px);
 }

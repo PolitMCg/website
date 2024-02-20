@@ -143,21 +143,21 @@ background-position: right;
 .politmc3 {
     color: rgb(43,185,105);
 }
+.content1:hover {
+    z-index: 0;
+}
 .content1 {
-    background-image: url(public/photo-anim1.jpg);
     position: absolute;
+    z-index: 3;
     text-align: right;
     left: 350px;
     top: 0px;
-}
-.content1:hover {
-background-image: url(public/photo-anim2.jpg);
-width: 100px;
-height: 100px;
-z-index: 3;
+    box-shadow:10px 10px 10px black;
+    display: inline;
 }
 .content2 {
     position: absolute;
+    z-index: 2;
     text-align: right;
     left: 350px;
     top: 0px;

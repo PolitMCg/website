@@ -13,3 +13,6 @@ window.open("https://discord.gg/ECztC7zpe9", "_blank");
 function vk(){
 window.open("https://vk.com/club224745781","_blank")
 }
+function news(){
+    document.getElementById("content1").style.zIndex = "-1";
+}

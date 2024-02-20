@@ -18,9 +18,13 @@ body {
     float:right;
 }
 .main {
-    background-color: rgba(17,17,17,0.9);
+    background-color: rgba(17,17,17,0.7);
     padding: 15px;
     text-align: center;
+    width: 99%;
+    backdrop-filter: blur(20px);
+    position: fixed;
+    z-index: 9999;
 }
 .politmc {
    float: left;
@@ -33,7 +37,13 @@ body {
 }
 .content {
     padding: 10px;
+    transform: translateY(100px);
 }
 .test {
 transform: translateY(1520px);
+}
+.features {
+    padding: 10px;
+
+    transform: translateY(120px);
 }

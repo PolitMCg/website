@@ -73,37 +73,58 @@ transition: .5s;
 background-position: right;
 }
 .rules {
-color:  white;
-background-color: rgb(66,66,66);
+color: white;
 padding: 10px 25px;
 border: none;
 cursor: pointer;
+font-family: monospace;
 border-radius: 20px;
 font-weight: 600px;
 font-size: 20px;
-box-shadow: 0px 5px 10px white;
+box-shadow: 0px 5px 10px black;
+background: linear-gradient(to left,#bdc3c7,#2c3e50,#bdc3c7);
+text-decoration:none;
+background-size: 200%;
+transition: .5s;
+}
+.rules:hover {
+background-position: right;
 }
 .faq {
-color:  white;
-background-color: rgb(66,66,66);
+color: white;
 padding: 10px 25px;
 border: none;
 cursor: pointer;
+font-family: monospace;
 border-radius: 20px;
 font-weight: 600px;
 font-size: 20px;
-box-shadow: 0px 5px 10px white;
+box-shadow: 0px 5px 10px black;
+background: linear-gradient(to left,#bdc3c7,#2c3e50,#bdc3c7);
+text-decoration:none;
+background-size: 200%;
+transition: .5s;
+}
+.faq:hover {
+background-position: right;
 }
 .news {
-color:  white;
-background-color: rgb(66,66,66);
+color: white;
 padding: 10px 25px;
 border: none;
 cursor: pointer;
+font-family: monospace;
 border-radius: 20px;
 font-weight: 600px;
 font-size: 20px;
-box-shadow: 0px 5px 10px white;
+box-shadow: 0px 5px 10px black;
+background: linear-gradient(to left,#bdc3c7,#2c3e50,#bdc3c7);
+text-decoration:none;
+background-size: 200%;
+transition: .5s;
+}
+.news:hover {
+background-position: right;
 }
 ::-webkit-scrollbar {
     background-color: rgb(66,66,66);

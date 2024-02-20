@@ -151,6 +151,8 @@ background-position: right;
 }
 .content1:hover {
 background-image: url(public/photo-anim2.jpg);
+width: 100px;
+height: 100px;
 }
 .content2 {
     position: absolute;

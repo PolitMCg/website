@@ -35,16 +35,24 @@ body {
     float: left;
 }
 .content {
-    padding: 10px;
-    transform: translateY(100px);
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    padding: 5px;
+    top: 100px;
+    left: 150px;
+    font-size: large;
+    font-weight: bold;
 }
 .test {
 transform: translateY(1520px);
 }
 .features {
     padding: 10px;
+     position: absolute;
+     top: 300px;
+     left: 200px;
 
-    transform: translateY(120px);
 }
 .home {
 color:  white;
@@ -97,4 +105,11 @@ box-shadow: 0px 5px 10px white;
 
 ::-webkit-scrollbar-thumb {
     background-color: rgb(103,103,103);
+}
+.politmc2 {
+    font-size: larger;
+    color: rgb(43,185,105);
+}
+.politmc3 {
+    color: rgb(43,185,105);
 }

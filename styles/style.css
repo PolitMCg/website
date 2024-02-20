@@ -153,6 +153,7 @@ background-position: right;
 background-image: url(public/photo-anim2.jpg);
 width: 100px;
 height: 100px;
+z-index: 3;
 }
 .content2 {
     position: absolute;

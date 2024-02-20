@@ -7,7 +7,7 @@ padding: 0;
     color: white;
 }
 
-body {
+.all {
     background-image: url("cover3.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -56,15 +56,15 @@ transform: translateY(1520px);
 }
 .home {
 color: white;
-padding: 10px 25px;
+padding: 10px 20px;
 border: none;
 cursor: pointer;
 font-family: monospace;
 border-radius: 20px;
-font-weight: 600px;
+font-weight: 600;
 font-size: 20px;
 box-shadow: 0px 5px 10px black;
-background: linear-gradient(to left,#bdc3c7,#2c3e50,#bdc3c7);
+background: linear-gradient(to left,#12c2e9,#c471ed,#f64f59);
 text-decoration:none;
 background-size: 200%;
 transition: .5s;
@@ -74,12 +74,12 @@ background-position: right;
 }
 .rules {
 color: white;
-padding: 10px 25px;
+padding: 10px 20px;
 border: none;
 cursor: pointer;
 font-family: monospace;
 border-radius: 20px;
-font-weight: 600px;
+font-weight: 600;
 font-size: 20px;
 box-shadow: 0px 5px 10px black;
 background: linear-gradient(to left,#bdc3c7,#2c3e50,#bdc3c7);
@@ -92,12 +92,12 @@ background-position: right;
 }
 .faq {
 color: white;
-padding: 10px 25px;
+padding: 10px 20px;
 border: none;
 cursor: pointer;
 font-family: monospace;
 border-radius: 20px;
-font-weight: 600px;
+font-weight: 600;
 font-size: 20px;
 box-shadow: 0px 5px 10px black;
 background: linear-gradient(to left,#bdc3c7,#2c3e50,#bdc3c7);
@@ -110,12 +110,12 @@ background-position: right;
 }
 .news {
 color: white;
-padding: 10px 25px;
+padding: 10px 20px;
 border: none;
 cursor: pointer;
 font-family: monospace;
 border-radius: 20px;
-font-weight: 600px;
+font-weight: 600;
 font-size: 20px;
 box-shadow: 0px 5px 10px black;
 background: linear-gradient(to left,#bdc3c7,#2c3e50,#bdc3c7);
@@ -139,4 +139,25 @@ background-position: right;
 }
 .politmc3 {
     color: rgb(43,185,105);
+}
+.content1 {
+    position: absolute;
+    z-index: 3;
+    text-align: right;
+    left: 350px;
+    top: 0px;
+}
+.content2 {
+    position: absolute;
+    z-index: 2;
+    text-align: right;
+    left: 350px;
+    top: 0px;
+}
+.content3 {
+    position: absolute;
+    z-index: 1;
+    text-align: right;
+    left: 350px;
+    top: 0px;
 }

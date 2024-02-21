@@ -13,12 +13,13 @@ padding: 0;
 .VK {
     float:right;
     cursor: pointer;
+    width: 35px;
 }
 .main {
     background-color: rgba(17,17,17,0.7);
     padding: 15px;
     text-align: center;
-    width: 99%;
+    width: 98%;
     backdrop-filter: blur(20px);
     position: fixed;
     z-index: 9999;
@@ -207,4 +208,50 @@ input[name="r"] {
 }
 #r4:checked  ~ .s1 {
     margin-left: -75%;
+}
+@media only screen and (max-width: 768px) {
+    .home {
+        display: none;
+    }
+    .politmc {
+        display: none;
+    }
+        .faq {
+        display: none;
+    }
+    .content {
+        width: auto;
+        height: auto;
+        top: 50px;
+        left: 50px;
+        right: 50px;
+        font-size: medium;
+    }
+
+    .features {
+        top: 300px;
+        left: 50px;
+    }
+
+    .slider {
+        width: 200px;
+        height: 120px;
+        left: 200px;
+        top: 200px;
+        transform: translateX(-50%);
+    }
+
+    .novigation {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .news {
+        font-size: 15px;
+    }
+    .rules {
+        font-size: 15px;
+    }
+    .VK {
+        width: 30px;
+    }
 }

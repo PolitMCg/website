@@ -1,7 +1,7 @@
-function home (){
+function home(){
     window.location.href = "html.html";
 }
-function faq (){
+function faq(){
 window.location.href = "pages/faq.html";
 }
 function rules(){

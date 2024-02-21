@@ -255,12 +255,15 @@ input[name="r"] {
         width: 30px;
     }
     .all {
-        background-size: 1000px 1758px;
+        background-size: 1280px 1353px;
     }
     .content {
         top: 100px;
         right: 0;
         left: 20px;
 
+    }
+    .test {
+        transform: translateY(1353px);
     }
 }

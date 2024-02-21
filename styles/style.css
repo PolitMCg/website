@@ -297,7 +297,7 @@ text-decoration:none;
 background-size: 200%;
 transition: .5s;
 }
-.homefaq {
+.homefaq:hover {
 background-position: right;
 }
 

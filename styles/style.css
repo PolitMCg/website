@@ -258,6 +258,22 @@ input[name="r"] {
     font-weight: bold;
     top: 500px;
 }
+.faqfaq     {
+color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: monospace;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    box-shadow: 0px 5px 10px black;
+    background: linear-gradient(to left,#12c2e9,#c471ed,#f64f59);
+    text-decoration:none;
+    background-size: 200%;
+    transition: .5s;
+}
+
 /*АДАПТАЦИЯ ПОД РАЗНЫЕ РАЗМЕРЫ ЭКРАНОВ*/
 @media only screen and (max-width: 768px) {
     .home {

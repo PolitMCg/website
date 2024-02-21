@@ -235,6 +235,9 @@ input[name="r"] {
     background-size: 200%;
     transition: .5s;
 }
+.homenews:hover  {
+background-position: right;
+}
 .newsnews {
     color: white;
     padding: 10px 20px;
@@ -250,6 +253,9 @@ input[name="r"] {
     background-size: 200%;
     transition: .5s;
     }
+.newsnews:hover  {
+background-position: right;
+}
 .trs {
     position: absolute;
     text-align: center;
@@ -257,6 +263,7 @@ input[name="r"] {
     font-weight: bold;
     top: 500px;
 }
+/*faq.HTML*/
 .faqfaq {
 color: white;
 padding: 10px 20px;

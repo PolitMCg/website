@@ -289,3 +289,8 @@ input[name="r"] {
             background-position: right;
     }
 }
+@media only screen and (max-width: 1024px) {
+    .all {
+        background-size: 1450px 1753px;
+    }
+}

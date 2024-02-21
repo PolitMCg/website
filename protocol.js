@@ -1,14 +1,14 @@
 function home(){
-window.location.href = "/website.main/index.html";
+window.location.href = "index.html";
 }
 function faq(){
-window.location.href = "/website.main/pages/faq.html";
+window.location.href = "pages/faq.html";
 }
 function rules(){
-window.location.href = "/website.main/pages/rules.html"
+window.location.href = "pages/rules.html"
 }
 function news(){
-window.location.href = "/website.main/pages/news.html"
+window.location.href = "pages/news.html"
 }
 function ds(){
 window.open("https://discord.gg/ECztC7zpe9", "_blank");

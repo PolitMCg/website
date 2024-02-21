@@ -11,8 +11,7 @@
   </head>
 
   <body class="all" >
-    <div class="main-shadow">
-    </div>
+
     <div class="main">
       <span><button class="home">Главная</button></span>
       <span><button class="rules" onclick="rules()">Правила</button></span>
@@ -34,14 +33,29 @@
         экономики с помощью <span class="politmc3">PolitMC</span>, где уникальные <span class="politmc3">механики</span> сочетаются с
         <span class="politmc3">производительностью.</span>
       </p>
-      
       <p class="buttonvopros"><button>Как играть?</button></p>
-    <div class="content1">
-      <span class="content1" onclick="content()"><img src="public/content1.jpg" alt="" width="600" height="370"></span>
-      <span class="content2" onclick="content()"><img src="public/content2.jpg" alt="" width="600" height="370"></span>
+    </div>
+    <div class="slider middle">
+      <div class="slides">
+       <input type="radio" name="r" id="r1" checked>
+       <input type="radio" name="r" id="r2">
+       <input type="radio" name="r" id="r3">
+       <input type="radio" name="r" id="r4">
+
+       <div class="slide s1"><img src="public/content1.png" alt="1"></div>
+       <div class="slide"><img src="public/content2.jpg" alt="2"></div>
+       <div class="slide"><img src="public/content3.png" alt="3"></div>
+       <div class="slide"><img src="public/content4.png" alt="4"></div>
+
+     </div>
+     <div class="novigation">
+       <label for="r1" class="bar"></label>
+       <label for="r2" class="bar"></label>
+       <label for="r3" class="bar"></label>
+       <label for="r4" class="bar"></label>
+
       </div>
     </div>
-      <div class="btn"> </div>
     <div class="features">
         <p>Наши особенности:</p>
         <ul>
@@ -49,7 +63,6 @@
             <li>Уникальные механики</li>
             <li>Незабываемый игровой опыт</li>
         </ul>
-
     </div>
     
     <div class="test">

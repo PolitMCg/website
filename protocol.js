@@ -1,4 +1,7 @@
 function faq (){
+    window.location.href = "html.html";
+}
+function faq (){
 window.location.href = "pages/faq.html";
 }
 function rules(){

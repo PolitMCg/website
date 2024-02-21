@@ -229,15 +229,15 @@ input[name="r"] {
     }
 
     .features {
-        top: 300px;
+        top: 400px;
         left: 50px;
     }
 
     .slider {
-        width: 200px;
-        height: 120px;
+        width: 300px;
+        height: 190px;
         left: 200px;
-        top: 200px;
+        top: 600px;
         transform: translateX(-50%);
     }
 
@@ -256,5 +256,10 @@ input[name="r"] {
     }
     .all {
         background-size: 1000px 1758px;
+    }
+    .content {
+        top: 100px;
+        right: 0;
+
     }
 }

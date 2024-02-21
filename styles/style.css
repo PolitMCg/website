@@ -209,6 +209,9 @@ input[name="r"] {
 #r4:checked  ~ .s1 {
     margin-left: -75%;
 }
+.buttonvopros{
+    display: none;
+}
 @media only screen and (max-width: 768px) {
     .home {
         display: none;
@@ -265,5 +268,24 @@ input[name="r"] {
     }
     .test {
         transform: translateY(1353px);
+    }
+    .buttonvopros {
+        display: block;
+        color: white;
+        padding: 10px 20px;
+        font-family: monospace;
+        border-radius: 5px;
+        font-weight: 600;
+        font-size: 10px;    
+        background: linear-gradient(to left,#12c2e9,#f64f59,#c471ed);
+        background-size: 200%;
+        transition: .5s;
+        text-decoration:none;
+        border: none;
+        box-shadow: 0px 5px 10px black;
+        cursor: pointer;
+    }
+    .buttonvopros:hover {
+            background-position: right;
     }
 }

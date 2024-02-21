@@ -254,4 +254,7 @@ input[name="r"] {
     .VK {
         width: 30px;
     }
+    .all {
+        background-size: 1000px 1758px;
+    }
 }

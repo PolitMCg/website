@@ -60,6 +60,9 @@ text-align: center;
      left: 200px;
      font-weight: bold;
 }
+.features1 {
+    font-weight: 400;
+}
 .home {
 color: white;
 padding: 10px 20px;
@@ -214,6 +217,7 @@ input[name="r"] {
 .buttonvopros{
     display: none;
 }
+
 /*NEWS.HTML*/
 
 /*АДАПТАЦИЯ ПОД РАЗНЫЕ РАЗМЕРЫ ЭКРАНОВ*/

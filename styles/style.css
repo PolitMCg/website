@@ -301,7 +301,7 @@ transition: .5s;
 background-position: right;
 }
 /*RULES.HTML*/
-.rules {
+.rulesrules {
     color: white;
     padding: 10px 20px;
     border: none;
@@ -319,6 +319,10 @@ background-position: right;
     .rules:hover {
     background-position: right;
     }
+.textrules {
+    position: absolute;
+    top: 300px;
+}
 /*АДАПТАЦИЯ ПОД РАЗНЫЕ РАЗМЕРЫ ЭКРАНОВ*/
 @media only screen and (max-width: 768px) {
     .home {

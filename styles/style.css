@@ -335,6 +335,31 @@ background-position: right;
     font-weight: bold;
     padding: 10px;
 }
+.blockrules1 {
+    display: flex;
+    justify-content: center;
+    background-color: #788487;
+    height: 250px;
+    width: 80%;
+    border-radius: 10px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.blockrules2 {
+    display: flex;
+    justify-content: center;
+    background-color: #788487;
+    height: 400px;
+    width: 80%;
+    border-radius: 10px;
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
 
 /*АДАПТАЦИЯ ПОД РАЗНЫЕ РАЗМЕРЫ ЭКРАНОВ*/
 @media only screen and (max-width: 768px) {

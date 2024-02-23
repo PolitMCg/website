@@ -345,6 +345,10 @@ background-position: right;
     display: flex;
     align-items: flex-start;
 }
+.color-rules {
+    color: rgb(152,95,172);
+    text-align: center;
+}
 
 
 /*АДАПТАЦИЯ ПОД РАЗНЫЕ РАЗМЕРЫ ЭКРАНОВ*/

@@ -344,6 +344,7 @@ background-position: right;
 .box-parent {
     display: flex;
     align-items: flex-start;
+    justify-content: center;
 }
 .color-rules {
     color: rgb(152,95,172);

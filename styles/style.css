@@ -337,7 +337,7 @@ background-position: right;
 .blockrules {
     display: inline-block;
     background-color: #788487;
-    height: 250px;
+    min-height: 150px;
     width: 80%;
     border-radius: 10px;
 }

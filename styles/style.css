@@ -334,7 +334,15 @@ background-position: right;
     text-align: center;
     font-weight: bold;
     padding: 10px;
-    
+}
+.blockrules1 {
+    display: flex;
+justify-content: center;
+align-items: center;
+background-color: aqua;
+height: 100px;
+width: 30%;
+border-radius: 10px;
 }
 /*АДАПТАЦИЯ ПОД РАЗНЫЕ РАЗМЕРЫ ЭКРАНОВ*/
 @media only screen and (max-width: 768px) {

@@ -339,11 +339,11 @@ background-position: right;
     display: flex;
     justify-content: center;
     background-color: aqua;
-    height: 100px;
-    width: 30%;
+    height: 400px;
+    width: 40%;
     border-radius: 10px;
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%,-50%);
 

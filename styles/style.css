@@ -336,7 +336,6 @@ background-position: right;
 }
 .blockrules1 {
     display: flex;
-    justify-content: center;
     background-color: #788487;
     height: 250px;
     width: 80%;
@@ -348,7 +347,6 @@ background-position: right;
 }
 .blockrules2 {
     display: flex;
-    justify-content: center;
     background-color: #788487;
     height: 300px;
     width: 80%;

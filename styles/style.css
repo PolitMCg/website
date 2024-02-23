@@ -343,7 +343,7 @@ background-position: right;
 }
 .box-parent {
     display: flex;
-    align-items: start;
+    align-items: flex-start;
 }
 
 

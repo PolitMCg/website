@@ -337,12 +337,16 @@ background-position: right;
 }
 .blockrules1 {
     display: flex;
-justify-content: center;
-align-items: center;
-background-color: aqua;
-height: 100px;
-width: 30%;
-border-radius: 10px;
+    justify-content: center;
+    background-color: aqua;
+    height: 100px;
+    width: 30%;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
 }
 /*АДАПТАЦИЯ ПОД РАЗНЫЕ РАЗМЕРЫ ЭКРАНОВ*/
 @media only screen and (max-width: 768px) {

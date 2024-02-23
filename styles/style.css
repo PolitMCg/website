@@ -351,11 +351,11 @@ background-position: right;
     display: flex;
     justify-content: center;
     background-color: #788487;
-    height: 250px;
+    height: 400px;
     width: 60%;
     border-radius: 10px;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%,-50%);
 

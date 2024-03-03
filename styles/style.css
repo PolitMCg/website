@@ -325,7 +325,8 @@ background-position: right;
     color: rgb(152,95,172);
 }
 .block {
-    margin: 10px;
+    margin: 5px;
+    padding: 10px;
     background-color: grey;
     border-radius: 3%;
 }

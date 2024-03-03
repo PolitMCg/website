@@ -325,9 +325,9 @@ background-position: right;
     color: rgb(152,95,172);
 }
 .block {
-    padding: 10 px;
+    padding: 10px;
     background-color: grey;
-    border-radius: 10%;
+    border-radius: 3%;
 }
 
 /*АДАПТАЦИЯ ПОД РАЗНЫЕ РАЗМЕРЫ ЭКРАНОВ*/

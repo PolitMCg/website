@@ -327,11 +327,12 @@ background-position: right;
 .point {
     display: inline;
     text-align: center;
+    background-color: rgb(30,30,34)
 }
 .block {
     display: block;
     margin: 5px;
-    padding: 10px;
+    padding: 20px;
     background-color: grey;
     border-radius: 3%;
 }

@@ -336,7 +336,34 @@ background-position: right;
     background-color: grey;
     border-radius: 3%;
 }
-
+DIV {
+    width: 100%;
+    max-width: 80%;
+    height: 200px;
+    background: gold;
+    box-shadow: 0 -200px 100px -120px crimson inset;
+    border-radius: 30px;
+    border: 10px solid white;
+    animation: background 3s infinite alternate;
+  }
+  
+  @keyframes background {
+    50% {
+      background: skyblue;
+      box-shadow: 0 -200px 100px -100px yellowgreen inset;
+    }
+  }
+  
+  /* Helpers */
+  BODY {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EEE;
+    font-size: 16px;
+  }
 /*АДАПТАЦИЯ ПОД РАЗНЫЕ РАЗМЕРЫ ЭКРАНОВ*/
 @media only screen and (max-width: 768px) {
     .home {

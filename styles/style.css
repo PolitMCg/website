@@ -3,11 +3,8 @@ margin: 0;
 padding: 0;
 } 
 .all {
-    background-color: gray;
+    background-color: black;
     color: white;
-    background-image: url("cover3.png");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .VK {

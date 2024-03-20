@@ -26,13 +26,12 @@ header {
     color: rgb(152,95,172);
 }
 .Baza {
-    height: 200px;
+    transform: translateY(90px);
     color: #fff;
     justify-content: center;
     align-items: center;
     z-index: 99;
     display: flex
-        
 }
 .navigation a {
     text-align: center;
@@ -67,16 +66,16 @@ header {
     height: 50px;
     text-align: center;
     }
-.test1 {
+.ds {
     transform: translateX(300px);
 }
-.test2 {
+.vk {
     transform: translateX(305px);
 }
 .logo {
     transform: translateX(-300px);
 }
-.logo1 {
+.logotext {
     transform: translateX(-290px);
     color: #fff;
     font-weight: 500;

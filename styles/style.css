@@ -3,6 +3,7 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 } 
 
 body {
@@ -66,3 +67,17 @@ header {
     height: 50px;
     text-align: center;
     }
+.test1 {
+    transform: translateX(300px);
+}
+.test2 {
+    transform: translateX(305px);
+}
+.logo {
+    transform: translateX(-300px);
+}
+.logo1 {
+    transform: translateX(-290px);
+    color: #fff;
+    font-weight: 500;
+}

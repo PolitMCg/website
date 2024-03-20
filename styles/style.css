@@ -33,6 +33,11 @@ header {
     z-index: 99;
     display: flex
 }
+.Baza1{
+    margin: 10px;
+    color: gray;
+    font-weight: 700;
+}
 .navigation a {
     text-align: center;
     position: relative;

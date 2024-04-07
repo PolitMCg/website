@@ -148,19 +148,15 @@
     text-align: center;
   }
   @media(max-width: 1024px) {
-    
     .ds {
       transform: translateX(200px);
     }
-    
     .vk {
       transform: translateX(205px);
     }
-    
     .logo {
       transform: translateX(-200px);
     }
-    
     .logotext {
       transform: translateX(-190px);
       color: #fff;
@@ -168,56 +164,48 @@
     }
     .ds,
     .vk {
-      transition: transform 0.3s ease-in-out; /* добавляем плавное изменение */
+      transition: transform 0.3s ease-in-out;
     }
-    
     .ds:hover {
-      transform: translateX(200px) scale(1.1); /* увеличиваем размер и сдвигаем влево при наведении */
+      transform: translateX(200px) scale(1.1);
     }
-    
     .vk:hover {
-      transform: translateX(205px) scale(1.1); /* увеличиваем размер и сдвигаем влево при наведении */
+      transform: translateX(205px) scale(1.1);
     }
   }
     @media(max-width: 768px) {
       .navigation a:first-child {
-        display: none; /* Скрываем первую ссылку (Home) */
+        display: none;
       }
       .ds {
         transform: translateX(100px);
       }
-      
       .vk {
         transform: translateX(105px);
       }
-      
       .logo {
         transform: translateX(-100px);
       }
-      
       .logotext {
         transform: translateX(-90px);
         color: #fff;
         font-weight: 500;
-        
       }
       .ds,
       .vk {
-        transition: transform 0.3s ease-in-out; /* добавляем плавное изменение */
+        transition: transform 0.3s ease-in-out;
       }
-      
       .ds:hover {
-        transform: translateX(100px) scale(1.1); /* увеличиваем размер и сдвигаем влево при наведении */
+        transform: translateX(100px) scale(1.1);
       }
-      
       .vk:hover {
-        transform: translateX(105px) scale(1.1); /* увеличиваем размер и сдвигаем влево при наведении */
+        transform: translateX(105px) scale(1.1);
       }
   }
   @media(max-width: 700px) {
   
     header {
-      padding: 1px 5px; /* Уменьшаем отступы */
+      padding: 1px 5px;
     }
     .ds {
       transform: translateX(50px);
@@ -239,137 +227,85 @@
     }
     .ds,
     .vk {
-      transition: transform 0.3s ease-in-out; /* добавляем плавное изменение */
+      transition: transform 0.3s ease-in-out;
     }
     
     .ds:hover {
-      transform: translateX(50px) scale(1.1); /* увеличиваем размер и сдвигаем влево при наведении */
+      transform: translateX(50px) scale(1.1);
     }
     
     .vk:hover {
-      transform: translateX(55px) scale(1.1); /* увеличиваем размер и сдвигаем влево при наведении */
+      transform: translateX(55px) scale(1.1);
     }
     .Baza {
       font-size: smaller;
     }
   }
     @media(max-width: 425px) {
-  
       header {
-        padding: 1px 5px; /* Уменьшаем отступы */
+        padding: 1px 5px;
       }
       .ds {
         transform: translateX(20px);
         width: 30px;
         height:25px;
       }
-      
       .vk {
         transform: translateX(25px);
         width: 30px;
         height:25px;
       }
-      
       .logo {
         transform: translateX(-20px);
       }
-      
       .logotext {
-display: none;
+        display: none;
       }
       .ds,
       .vk {
-        transition: transform 0.3s ease-in-out; /* добавляем плавное изменение */
+        transition: transform 0.3s ease-in-out;
       }
-      
       .ds:hover {
-        transform: translateX(20px) scale(1.1); /* увеличиваем размер и сдвигаем влево при наведении */
+        transform: translateX(20px) scale(1.1);
       }
-      
       .vk:hover {
-        transform: translateX(25px) scale(1.1); /* увеличиваем размер и сдвигаем влево при наведении */
+        transform: translateX(25px) scale(1.1);
       }
       .Baza {
         font-size: smaller;
       }
   }
   @media(max-width: 375px) {
-  
     header {
-      padding: 1px 5px; /* Уменьшаем отступы */
+      padding: 1px 5px;
     }
     .ds {
       transform: translateX(20px);
       width: 30px;
       height:25px;
     }
-    
     .vk {
       transform: translateX(25px);
       width: 30px;
       height:25px;
     }
-    
     .logo {
       display: none;
     }
-    
     .logotext {
 display: none;
     }
     .ds,
     .vk {
-      transition: transform 0.3s ease-in-out; /* добавляем плавное изменение */
+      transition: transform 0.3s ease-in-out;
     }
-    
     .ds:hover {
-      transform: translateX(20px) scale(1.1); /* увеличиваем размер и сдвигаем влево при наведении */
+      transform: translateX(20px) scale(1.1);
     }
-    
     .vk:hover {
-      transform: translateX(25px) scale(1.1); /* увеличиваем размер и сдвигаем влево при наведении */
+      transform: translateX(25px) scale(1.1);
     }
     .Baza {
       font-size: smaller;
     }
-}
-@media(max-width: 320px) {
-  
-  header {
-    padding: 1px 1px; /* Уменьшаем отступы */
-  }
-  .ds {
-    transform: translateX(20px);
-    width: 30px;
-    height:25px;
-  }
-  
-  .vk {
-    transform: translateX(25px);
-    width: 30px;
-    height:25px;
-  }
-  
-  .logo {
-    display: none;
-  }
-  
-  .logotext {
-display: none;
-  }
-  .ds,
-  .vk {
-    transition: transform 0.3s ease-in-out; /* добавляем плавное изменение */
-  }
-  
-  .ds:hover {
-    transform: translateX(20px) scale(1.1); /* увеличиваем размер и сдвигаем влево при наведении */
-  }
-  
-  .vk:hover {
-    transform: translateX(25px) scale(1.1); /* увеличиваем размер и сдвигаем влево при наведении */
-  }
-  .Baza {
-    font-size: smaller;
-  }
 }

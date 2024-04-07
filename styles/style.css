@@ -333,3 +333,43 @@ display: none;
       font-size: smaller;
     }
 }
+@media(max-width: 320px) {
+  
+  header {
+    padding: 1px 1px; /* Уменьшаем отступы */
+  }
+  .ds {
+    transform: translateX(20px);
+    width: 30px;
+    height:25px;
+  }
+  
+  .vk {
+    transform: translateX(25px);
+    width: 30px;
+    height:25px;
+  }
+  
+  .logo {
+    display: none;
+  }
+  
+  .logotext {
+display: none;
+  }
+  .ds,
+  .vk {
+    transition: transform 0.3s ease-in-out; /* добавляем плавное изменение */
+  }
+  
+  .ds:hover {
+    transform: translateX(20px) scale(1.1); /* увеличиваем размер и сдвигаем влево при наведении */
+  }
+  
+  .vk:hover {
+    transform: translateX(25px) scale(1.1); /* увеличиваем размер и сдвигаем влево при наведении */
+  }
+  .Baza {
+    font-size: smaller;
+  }
+}

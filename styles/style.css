@@ -80,8 +80,28 @@ header {
 .logo {
     transform: translateX(-300px);
 }
+
 .logotext {
     transform: translateX(-290px);
     color: #fff;
     font-weight: 500;
+}
+.ds,
+.vk {
+    transition: transform 0.3s ease-in-out; /* добавляем плавное изменение */
+}
+
+.ds:hover {
+    transform: translateX(300px) scale(1.1); /* увеличиваем размер и сдвигаем влево при наведении */
+}
+
+.vk:hover {
+    transform: translateX(305px) scale(1.1); /* увеличиваем размер и сдвигаем влево при наведении */
+}
+.end  {
+    color: #fff;
+    font-weight: 500;
+        transform: translateY(1758px);
+        height: 50px;
+        text-align: center;
 }

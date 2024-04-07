@@ -249,4 +249,43 @@
     .vk:hover {
       transform: translateX(55px) scale(1.1); /* увеличиваем размер и сдвигаем влево при наведении */
     }
+    .Baza {
+      font-size: smaller;
+    }
+    @media(max-width: 425px) {
+  
+      header {
+        padding: 1px 5px; /* Уменьшаем отступы */
+      }
+      .ds {
+        transform: translateX(20px);
+      }
+      
+      .vk {
+        transform: translateX(25px);
+      }
+      
+      .logo {
+        transform: translateX(-20px);
+      }
+      
+      .logotext {
+display: none;
+      }
+      .ds,
+      .vk {
+        transition: transform 0.3s ease-in-out; /* добавляем плавное изменение */
+      }
+      
+      .ds:hover {
+        transform: translateX(20px) scale(1.1); /* увеличиваем размер и сдвигаем влево при наведении */
+      }
+      
+      .vk:hover {
+        transform: translateX(25px) scale(1.1); /* увеличиваем размер и сдвигаем влево при наведении */
+      }
+      .Baza {
+        font-size: smaller;
+      }
+  }
   }

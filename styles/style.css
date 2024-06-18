@@ -151,7 +151,7 @@
     transform: translateY(1758px);
     background-color: #222;
     padding: 20px;
-    color: #fff;
+    color: rgb(156 163 175);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -278,9 +278,6 @@
     }
     .Baza {
       font-size: smaller;
-    }
-    .END_TEXT{
-      color: rgb(156 163 175)
     }
   }
     @media(max-width: 425px) {

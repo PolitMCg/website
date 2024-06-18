@@ -46,6 +46,7 @@
   .Baza {
     transform: translateY(90px);
     color: #fff;
+    font-size: xx-large;
     justify-content: center;
     align-items: center;
     z-index: 99;

@@ -112,15 +112,12 @@
   
   .logo {
     transform: translateX(-300px);
-    margin: 0px;
   }
   
   .logotext {
-    transform: translateX(-290px);
+    transform: translateX(-295px);
     color: #fff;
     font-weight: 500;
-    margin: 0px;
-
   }
   
   .ds,

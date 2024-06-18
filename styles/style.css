@@ -58,14 +58,15 @@
   }
   
   .Baza1{
-    margin: 10px 200px;
+    margin: 10px 300px;
     color: gray;
     transform: translateY(100px);
     font-weight: 700;
     justify-content: center;
     align-items: center;
     z-index: 99;
-    display: flex
+    display: flex;
+    text-align: center;
   }
   
   .navigation a {

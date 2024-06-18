@@ -279,6 +279,9 @@
     .Baza {
       font-size: smaller;
     }
+    .END_TEXT{
+      color: rgb(156 163 175)
+    }
   }
     @media(max-width: 425px) {
       header {

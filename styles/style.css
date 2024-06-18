@@ -56,6 +56,10 @@
     margin: 10px;
     color: gray;
     font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    display: flex
   }
   
   .navigation a {

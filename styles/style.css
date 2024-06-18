@@ -112,7 +112,7 @@
   
   .logo {
     transform: translateX(-300px);
-    border-radius: 5cm;
+    border-radius: 3px;
   }
   
   .logotext {

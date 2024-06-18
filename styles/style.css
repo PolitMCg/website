@@ -40,7 +40,10 @@
   }
   
   .PolitMC {
-    color: rgb(152,95,172);
+    background: linear-gradient(90deg, rgb(152, 95, 172), rgb(97, 38, 119));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
   }
   
   .Baza {

@@ -231,6 +231,49 @@
   font-size: 1em;
   line-height: 1.5;
 }
+.slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 20px 0;
+}
+
+.slider-arrow {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2em;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 2;
+}
+
+.slider-content {
+  overflow: hidden;
+  width: 300px; /* Adjust based on your design */
+  position: relative;
+}
+
+.slider-item {
+  display: none;
+  text-align: center;
+  color: white;
+}
+
+.slider-item.active {
+  display: block;
+}
+
+.slider-item h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.slider-item p {
+  font-size: 1em;
+  color: gray;
+}
 
   @media(max-width: 1024px) {
     .ds {

@@ -55,7 +55,7 @@
   .Baza1{
     margin: 10px;
     color: gray;
-    transform: scaleY(-100px);
+    transform: translateY(100px);
     font-weight: 700;
     justify-content: center;
     align-items: center;

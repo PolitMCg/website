@@ -237,6 +237,7 @@
   justify-content: center;
   position: relative;
   margin: 20px 0;
+  overflow: hidden;
 }
 
 .slider-arrow {
@@ -255,14 +256,21 @@
   position: relative;
 }
 
+.slider-wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
 .slider-item {
-  display: none;
+  min-width: 100%;
   text-align: center;
   color: white;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .slider-item.active {
-  display: block;
+  opacity: 1;
 }
 
 .slider-item h2 {

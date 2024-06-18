@@ -187,36 +187,6 @@
 .footer-link:hover {
     color: rgb(152, 95, 172);
 }
-
-.hamburger-menu {
-  display: none;
-  cursor: pointer;
-}
-
-.mobile-menu {
-  display: none;
-  flex-direction: column;
-  position: absolute;
-  top: 60px;
-  right: 10px;
-  background-color: rgba(18, 18, 18, 0.9);
-  border: 1px solid #fff;
-  border-radius: 5px;
-  padding: 10px;
-  z-index: 100;
-}
-
-.mobile-menu a {
-  color: #fff;
-  padding: 10px;
-  text-decoration: none;
-  border-bottom: 1px solid #ccc;
-}
-
-.mobile-menu a:last-child {
-  border-bottom: none;
-}
-
   @media(max-width: 1024px) {
     .ds {
       transform: translateX(200px);
@@ -312,13 +282,6 @@
     }
   }
     @media(max-width: 425px) {
-    .navigation {
-        display: none;
-    }
-
-    .hamburger-menu {
-        display: block;
-    }
       header {
         padding: 1px 5px;
       }

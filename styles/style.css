@@ -57,19 +57,16 @@
     display: flex
   }
   
-  .Baza1 {
-    margin: 10px auto;
+  .Baza1{
+    margin: 10px, 200px;
     color: gray;
     transform: translateY(100px);
     font-weight: 700;
     justify-content: center;
     align-items: center;
     z-index: 99;
-    display: flex;
-    max-width: 80%; /* Adjust this value as needed */
-    text-align: center;
+    display: flex
   }
-  
   
   .navigation a {
     text-align: center;

@@ -95,7 +95,61 @@
     transform: scaleX(0);
     transition: transform .5s;
   }
-  
+  .tiles-container {
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+    
+}
+.tiles-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  justify-content: center;
+  justify-items: center; /* Added to center the tiles */
+  padding: 20px;
+}
+.tile {
+  justify-content: center;
+  width: 70%; /* Уменьшение ширины плитки */
+  padding-bottom: 25%; /* Соотношение сторон 4:3 */
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: flex-end;
+  padding: 20px;
+  height: 200px;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.tile:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+.tile::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  transition: background 0.3s;
+}
+.tile:hover::after {
+  background: rgba(0, 0, 0, 0.3);
+}
+.tile-content {
+  position: relative;
+  z-index: 1;
+}
   .navigation a:hover::after {
     transform: scaleX(1);
   }
@@ -139,6 +193,8 @@
   }
   
   .news {
+justify-content: center;
+text-align: center;
     margin-top: 200px;
     color: #fff;
     padding: 20px;

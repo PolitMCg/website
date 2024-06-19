@@ -1,46 +1,33 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Новости</title>
-    <link rel="stylesheet" href="/website.main/styles/rules.css">
+    <title>PolitRP - news</title>
+    <link rel="icon" type="x-icon" href="/website.main/public/logo.png">
+    <link rel="stylesheet" href="/website.main/styles/style.css">
+    <script src="/website.main/protocol.js"></script>
 </head>
 <body>
-    <div class="news-container">
-        <div class="news-item">
-            <h2 class="news-title" data-article="article1">Заголовок статьи 1</h2>
-            <div class="news-article" id="article1">
-                <p>Полный текст статьи 1...</p>
-                <div class="tiles-container">
-                    <div class="tile" data-video="path_to_your_video1.mp4">
-                        <div class="tile-content">Текст плитки 1</div>
-                        <video class="tile-video" muted loop></video>
-                    </div>
-                    <div class="tile" data-video="path_to_your_video2.mp4">
-                        <div class="tile-content">Текст плитки 2</div>
-                        <video class="tile-video" muted loop></video>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="news-item">
-            <h2 class="news-title" data-article="article2">Заголовок статьи 2</h2>
-            <div class="news-article" id="article2">
-                <p>Полный текст статьи 2...</p>
-                <div class="tiles-container">
-                    <div class="tile" data-video="path_to_your_video3.mp4">
-                        <div class="tile-content">Текст плитки 3</div>
-                        <video class="tile-video" muted loop></video>
-                    </div>
-                    <div class="tile" data-video="path_to_your_video4.mp4">
-                        <div class="tile-content">Текст плитки 4</div>
-                        <video class="tile-video" muted loop></video>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script src="script.js"></script>
+    <div class="main">
+        <span><button class="homenews" onclick="home()">Главная</button></span>
+        <span><button class="rules" onclick="rules()">Правила</button></span>
+        <span><button class="faq" onclick="faq()">Как играть?</button></span>
+        <span><button class="newsnews">Новости</button></span>
+  
+        <a><img class="VK" src="/website.main/public/vk.png" onclick="vk()"> </a>
+        <a><img class="VK" src="/website.main/public/ds.png" onclick="ds()"> </a>
+        <span class="logo"><img src="/website.main/public/logo.png" alt="logo" width="35" height="35"></span>
+        <span class="politmc">PolitMC</span>
+      </div>
+      <div class="trs">
+        <h1>Здесь пока что нет новостей но вы можете их <a href="https://vk.com/roman_nezlobin">предложить</a></h1>
+      </div>
+      <div class="test">
+        <span>Ⓒ2020-2024</span>
+        <p>Все права защищены.</p>
+        <p>Неформальная организация "Романов"</p>
+        
+      </div>
 </body>
 </html>

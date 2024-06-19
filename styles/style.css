@@ -209,7 +209,7 @@ text-align: center;
   }
   
   .end {
-    transform: translateY(800px);
+    transform: translateY(500px);
     background-color: #222;
     padding: 20px;
     color: rgb(156 163 175);

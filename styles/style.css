@@ -185,11 +185,11 @@
   }
   
   .ds:hover {
-    transform: translateX(300px) scale(1.1); /* увеличиваем размер и сдвигаем влево при наведении */
+    transform: translateX(200px) scale(1.1); /* увеличиваем размер и сдвигаем влево при наведении */
   }
   
   .vk:hover {
-    transform: translateX(305px) scale(1.1); /* увеличиваем размер и сдвигаем влево при наведении */
+    transform: translateX(205px) scale(1.1); /* увеличиваем размер и сдвигаем влево при наведении */
   }
   
   .news {

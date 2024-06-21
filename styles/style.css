@@ -181,15 +181,15 @@
   
   .ds,
   .vk {
-    transition: transform 0.3s ease-in-out; /* добавляем плавное изменение */
-  }
+    transition: transform 0.3s ease-in-out;
+}
   
   .ds:hover {
-    transform: translateX(300px) scale(1.1); /* увеличиваем размер и сдвигаем влево при наведении */
+    transform: translateX(300px) scale(1.1);
   }
   
   .vk:hover {
-    transform: translateX(305px) scale(1.1); /* увеличиваем размер и сдвигаем влево при наведении */
+    transform: translateX(305px) scale(1.1);
   }
   
   .news {
@@ -309,7 +309,7 @@ text-align: center;
 
 .slider-content {
   overflow: hidden;
-  width: 300px; /* Adjust based on your design */
+  width: 300px;
   position: relative;
 }
 
